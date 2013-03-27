@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_setbt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Settings" />
+    
+    <Button
+        android:id="@+id/btn_connectbt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect a Bluetooth Device" />
+    
+    <Button
+        android:id="@+id/btn_disconntbt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Disconnect a Bluetooth Device" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="#cccccc" />
+    
+    <Button
+        android:id="@+id/btn_serialtest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Serial Test" />
+
+    <Button
+        android:id="@+id/btn_passometer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect Passometer" />
+    
+    <Button
+        android:id="@+id/btn_gps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect GPS" />
+
+</LinearLayout>
